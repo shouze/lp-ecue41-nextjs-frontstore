@@ -22,7 +22,11 @@ export default ProductGrid;
 
 const Grid = styled.div`
   width: 100%;
-  display: grid;
-  grid-template-columns: 2fr;
   gap: 16px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:50px; 
+  background-color: #eee;
+  padding: 50px;
 `;
