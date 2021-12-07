@@ -25,11 +25,25 @@ export default CTA;
 const StyledButton = styled.button`
   width: 100%;
   padding: 16px 20px;
-  border: none;
-  background: ${(props) => props.theme.colors.secondary};
+  border: 1px solid ${(props) => props.theme.colors.borderYellow};
+  border-radius: 99999px;
+  background: ${(props) => props.theme.colors.yellow};
   color: ${(props) => props.theme.colors.darkText};
   &:disabled {
     opacity: 0.4;
     background: lightgrey;
+  }
+  &:hover{
+    border: 1px solid ${(props) => props.theme.colors.hoverBorderYellow};
+    background-color: ${(props) =>
+      props.isClicked
+        ? props.theme.colors.lightText
+        : props.theme.colors.hoverYellow};
+  }
+  &:focus{
+    outline: none;
+    border: 1px solid ${(props) => props.theme.colors.borderYellow};
+    background-color: ${(props) => props.theme.colors.lightText};
+    color: ${(props) => props.theme.colors.primary};
   }
 `;
