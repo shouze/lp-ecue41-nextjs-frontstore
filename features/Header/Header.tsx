@@ -5,7 +5,7 @@ import Navbar from "../../containers/Navbar/Navbar";
 const Header = () => {
   return (
     <Wrapper>
-      <Heading textAlign="center">Aixmazone</Heading>
+      <Heading textAlign="center"><img src="/logo-blanc.png" alt=""/></Heading>
       <Navbar />
     </Wrapper>
   );
