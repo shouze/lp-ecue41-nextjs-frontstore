@@ -13,6 +13,7 @@ export const theme = {
     borderOrange: "#FF8F00",
     hoverOrange: "#FA8900",
     hoverBorderOrange:"#E3931E",
+    divider:'#e5e5e5'
   },
   font: {
     heading: "Raleway",
