@@ -8,7 +8,7 @@ interface Props {
 
 const ProductGrid = (props: Props) => {
   const { products } = props;
-
+  console.log(products);
   return (
     <Grid>
       {products.map((product) => {

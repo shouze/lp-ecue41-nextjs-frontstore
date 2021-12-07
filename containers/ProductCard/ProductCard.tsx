@@ -38,6 +38,7 @@ const ProductCard = (props: Props) => {
       <ProductCardInfo
         name={product.name}
         price={product.price}
+        productId={product.id}
         onClickFunction={handleIncrement}
       />
     </Card>
