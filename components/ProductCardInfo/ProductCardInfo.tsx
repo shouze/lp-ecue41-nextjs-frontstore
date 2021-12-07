@@ -1,10 +1,13 @@
 import React, { Fragment, useState } from "react";
 import styled from "styled-components";
 import { Button } from "../index";
+import Link from 'next/link'
+
 
 interface Props {
   name: string;
   price: string;
+  productId: number;
   onClickFunction: React.MouseEventHandler<HTMLButtonElement>;
 }
 
@@ -17,14 +20,19 @@ const ProductCardInfo = (props: Props) => {
     setTimeout(() => setIsClicked(false), 300);
   };
 
+  console.log(props);
+
   return (
     <Wrapper>
       <SpanContainer>
         <span>{props.name}</span>
-        <span>--</span>
+        <span>--</span>  
         <span>{props.price}€</span>
       </SpanContainer>
       <Fragment>
+      <Link href={`/product/${props.productId}`}>
+        VOIR LE PRODUIT
+      </Link>
         <Button onClickFunction={handleClick} isClicked={isClicked}>
           AJOUTER AU PANIER
         </Button>
