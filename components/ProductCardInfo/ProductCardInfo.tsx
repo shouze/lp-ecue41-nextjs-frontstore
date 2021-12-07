@@ -20,9 +20,9 @@ const ProductCardInfo = (props: Props) => {
   return (
     <Wrapper>
       <SpanContainer>
-        <span>{props.name}</span>
-        <span>--</span>
-        <span>{props.price}€</span>
+        <h2>{props.name}</h2>
+        <p>{props.author}</p>
+        <p>{props.price}€</p>
       </SpanContainer>
       <Fragment>
         <Button onClickFunction={handleClick} isClicked={isClicked}>
@@ -36,20 +36,24 @@ const ProductCardInfo = (props: Props) => {
 export default ProductCardInfo;
 
 const Wrapper = styled.div`
-  width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-direction : column;
+  align-items:start;
+  gap: 1rem;
   padding: 16px;
-  padding-top: 5%;
   padding-bottom: 7%;
 `;
 
 const SpanContainer = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  span {
-    display: flex;
-    align-items: center;
+  font-weight:bolder;
+  font-size:22px;
+  h2{
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  p{
+    margin: .5rem 0 0 0;
+    font-size: 2rem;
+    color: ${(props) => props.theme.colors.orange};
   }
 `;
