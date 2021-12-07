@@ -23,7 +23,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Raleway'
+    font-family: 'Arial'
   }
 
   .iJHKsF{
@@ -39,8 +39,38 @@ const GlobalStyle = createGlobalStyle`
 
   .eXwzUs{
     background-color:#232f3e;
+    height:40px;
+    color:white;
+    display:flex;
+    justify-content:start;
+    padding-left:20px;
   }
   
+  .hjQdtU{
+    color:white;
+    font-size:14px;
+    cursor:pointer;
+  }
+  .ProductGrid__Grid-sc-ammdyg-0{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:50px; 
+    background-color: #eee;
+    padding: 50px;
+  }
+  .ProductCard__Card-sc-drk3uj-0 {
+    width: 400px;
+    background-color:#fff;
+    border-radius:5px
+  }
+  .ProductCard__Card-sc-drk3uj-0 img{
+    border-radius:5px;
+  }
+  .ProductCardInfo__SpanContainer-sc-wtiaza-1{
+    font-family: "Arial";
+    padding:10px;
+  }
 `;
 
 export default GlobalStyle;
