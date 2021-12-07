@@ -73,46 +73,46 @@ Respecter le format `Sébastien H.` pour un minimum de respect de la vie privée
 
 ## Pool A
 
-### Équipe A
+### Équipe 1
 
--
--
--
--
+- [guilhemelias](https://github.com/guilhemelias)
+- [l-moriniere](https://github.com/l-moriniere)
+- [leolipovac](https://github.com/leolipovac)
+- [Lorenzo-Tr](https://github.com/Lorenzo-Tr)
 
+### Équipe 2
 
-### Équipe B
+- [anthony-tron](https://github.com/anthony-tron)
+- [Alixen](https://github.com/Alixen)
+- [Mczender](https://github.com/Mczender)
 
--
--
--
--
-### Équipe C
+### Équipe 3
 
--
--
--
--
+- [bryan-battu](https://github.com/bryan-battu)
+- [iDz-0](https://github.com/iDz-0)
+- [lucaschevalierr](https://github.com/lucaschevalierr)
+- [striilir](https://github.com/striilir)
 
 ## Pool B
 
-### Équipe A
+### Équipe 1
 
--
--
--
--
+- [vixxs](https://github.com/vixxs)
+- [jsaiap](https://github.com/jsaiap)
+- [ferrali-mario](https://github.com/ferrali-mario)
+- [tom-guastapaglia](https://github.com/tom-guastapaglia)
 
-### Équipe B
+### Équipe 2
 
--
--
--
--
-### Équipe C
+- [mrgenky](https://github.com/mrgenky)
+- [ClemNkl](https://github.com/ClemNkl)
+- [Gayet-Nicolas](https://github.com/Gayet-Nicolas)
+- [Leo-1503](https://github.com/Leo-1503)
 
--
--
--
--
+### Équipe 3
+
+- [nguyenj-c](https://github.com/nguyenj-c)
+- [Khalil-Mohamed](https://github.com/Khalil-Mohamed)
+- [Aizkun](https://github.com/Aizkun)
+- [flonegre](https://github.com/flonegre)
 
