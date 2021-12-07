@@ -5,6 +5,7 @@ import { useAppDispatch } from "../../store/hooks";
 import { addLineItem } from "../../store/slices/cartSlice";
 import { ProductCardInfo } from "../../components";
 
+
 interface Props {
   product: Product;
 }
@@ -24,15 +25,18 @@ const ProductCard = (props: Props) => {
   const handleIncrement = () => {
     dispatch(addLineItem(lineItem));
   };
+  function redirection() {
+    document.location.href = "/detail/?id="+product.id
+  }
 
   return (
-    <Card>
+    <Card onClick={redirection}>
       <ImageContainer>
         <Image
           src={product.images[0].src}
           alt={product.images[0].alt}
-          layout="fill"
           objectFit="cover"
+          layout={"fill"}
         />
       </ImageContainer>
       <ProductCardInfo

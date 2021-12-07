@@ -12,7 +12,7 @@ const ProductGrid = (props: Props) => {
   return (
     <Grid>
       {products.map((product) => {
-        return <ProductCard product={product} key={product.id} />;
+        return <ProductCard product={product} key={product.id}/>;
       })}
     </Grid>
   );
@@ -22,7 +22,8 @@ export default ProductGrid;
 
 const Grid = styled.div`
   width: 100%;
-  display: grid;
-  grid-template-columns: 2fr;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 16px;
 `;
