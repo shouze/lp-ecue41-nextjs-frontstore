@@ -15,8 +15,19 @@ export default Navbar;
 
 const Wrapper = styled.div`
   width: 100%;
-  display: flex;
   align-items: center;
   justify-content: center;
   gap: 12px;
+  background-color:#232f3e;
+  height:40px;
+  color:white;
+  display:flex;
+  justify-content:start;
+  padding-left:20px;
+
+  h4{
+    color:white;  
+    font-size:14px;
+    cursor:pointer;
+  }
 `;

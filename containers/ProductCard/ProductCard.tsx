@@ -47,12 +47,22 @@ const ProductCard = (props: Props) => {
 export default ProductCard;
 
 const Card = styled.div`
-  width: 100%;
+  width: 400px;
+  background-color:#fff;
+  border-radius:5px;
+  font-family: "Arial";
+  span{
+    padding:10px;
+  }
+  img{
+    border-radius:5px;
+  }
 `;
 
 const ImageContainer = styled.div`
   position: relative;
   width: 100%;
+  border-radius:5px;
   /* height: 100%; */
   padding-bottom: 100%; /* forces square aspect ratio */
 `;
