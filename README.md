@@ -116,3 +116,11 @@ Respecter le format `Sébastien H.` pour un minimum de respect de la vie privée
 - [Aizkun](https://github.com/Aizkun)
 - [flonegre](https://github.com/flonegre)
 
+
+
+# Paiement carte de test Stripe
+
+```
+4111 1111 1111 1111
+03/30 737
+```
