@@ -4,6 +4,7 @@ import { CartHeader, CTA } from "../../components";
 import { CartItem, CartSummary } from "../../containers";
 import { LineItem } from "../../utils/types/wooCommerceTypes";
 import { useRouter } from "next/router";
+import { computeTotalPrice } from "../../utils/prices";
 
 interface Props {
   lineItems: LineItem[];
@@ -21,7 +22,7 @@ const Cart = (props: Props) => {
           return <CartItem lineItem={lineItem} key={lineItem.product_id} />;
         })}
         <CartSummary lineItems={lineItems} />
-        <CTA onClickFunction={() => router.push("/checkout")}>PAYER</CTA>
+        <CTA onClickFunction={() => router.push("/checkout")}>PAYER {computeTotalPrice(props.lineItems)}</CTA>
       </Fragment>
     );
   };
