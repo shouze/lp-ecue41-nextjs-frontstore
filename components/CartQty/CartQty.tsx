@@ -27,5 +27,6 @@ const Wrapper = styled.div`
     background: none;
     border: 1px solid ${(props) => props.theme.colors.primary};
     border-radius: 3px;
+    cursor: pointer;
   }
 `;

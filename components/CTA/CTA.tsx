@@ -32,4 +32,5 @@ const StyledButton = styled.button`
     opacity: 0.4;
     background: lightgrey;
   }
+  cursor: pointer;
 `;

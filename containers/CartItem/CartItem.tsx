@@ -64,6 +64,7 @@ const Wrapper = styled.div`
   div {
     :first-child {
       width: 10%;
+      cursor: pointer;
     }
 
     :nth-child(2) {
