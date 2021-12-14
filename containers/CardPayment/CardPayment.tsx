@@ -162,6 +162,7 @@ const Form = styled.form`
     border: 1px solid ${(props) => props.theme.colors.primary};
     border-radius: 3px;
     padding: 10px;
+    cursor: pointer;
   }
 `;
 
