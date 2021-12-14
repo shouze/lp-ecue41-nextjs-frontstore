@@ -1,10 +1,14 @@
 export const theme = {
   name: "default",
   colors: {
-    primary: "#161616",
-    secondary: "#AFFAD6",
+    primary: "#ffd814",
+    secondary: "#f7ca00",
     lightText: "#FFFFFF",
-    darkText: "#000000",
+    darkText: "#0f1111",
+  },
+  borderRadius: {
+    small: '3px',
+    big: '19px',
   },
   font: {
     heading: "Raleway",

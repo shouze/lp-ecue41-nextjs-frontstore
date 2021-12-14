@@ -23,6 +23,6 @@ export default NavHeading;
 
 // NOTE: can use type <Props> but <Pick> is more specific
 const StyledH4 = styled.h4<Pick<Props, "color">>`
-  color: ${(props) => (props.color ? props.color : props.theme.colors.primary)};
+  color: ${(props) => props.theme.colors.darkText};
   cursor: pointer;
 `;

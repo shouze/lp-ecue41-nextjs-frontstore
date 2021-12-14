@@ -26,7 +26,7 @@ const ProductCardInfo = (props: Props) => {
       </SpanContainer>
       <Fragment>
         <Button onClickFunction={handleClick} isClicked={isClicked}>
-          AJOUTER AU PANIER
+          Ajouter au panier
         </Button>
       </Fragment>
     </Wrapper>

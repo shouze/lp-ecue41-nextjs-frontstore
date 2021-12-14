@@ -159,7 +159,7 @@ const Form = styled.form`
   .card-element {
     width: 100%;
     margin-bottom: 1rem;
-    border: 1px solid ${(props) => props.theme.colors.primary};
+    border: 1px solid ${(props) => props.theme.colors.darkText};
     border-radius: 3px;
     padding: 10px;
     cursor: pointer;

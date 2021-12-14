@@ -28,6 +28,7 @@ const StyledButton = styled.button`
   border: none;
   background: ${(props) => props.theme.colors.secondary};
   color: ${(props) => props.theme.colors.darkText};
+  border-radius: ${(props) => props.theme.borderRadius.big};
   &:disabled {
     opacity: 0.4;
     background: lightgrey;
