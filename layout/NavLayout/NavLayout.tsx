@@ -17,7 +17,7 @@ const NavLayout = (props: Props) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main>{props.children}</main>
+      <Main>{props.children}</Main>
     </Wrapper>
   );
 };
@@ -25,3 +25,6 @@ const NavLayout = (props: Props) => {
 export default NavLayout;
 
 const Wrapper = styled.div``;
+const Main = styled.main`
+  margin-top: 30px;
+`;

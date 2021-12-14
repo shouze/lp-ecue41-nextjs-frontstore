@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import { Heading } from "../../components";
 import Navbar from "../../containers/Navbar/Navbar";
@@ -7,7 +8,7 @@ const Header = () => {
   return (
     <Wrapper>
       <Heading textAlign="center">
-        <Image src="/images/logo.png" alt="Aixmazone" width={189} height={60} />
+        <Image src="/images/logo.png" alt="Aixmazone" width={214} height={61} />
       </Heading>
       <Navbar />
     </Wrapper>
@@ -17,5 +18,6 @@ const Header = () => {
 export default Header;
 
 const Wrapper = styled.div`
-  width: 100%;
+  background-color: ${(props) => props.theme.colors.tertiary};
+  margin: 0px;
 `;
