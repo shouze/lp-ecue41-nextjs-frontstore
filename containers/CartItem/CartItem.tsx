@@ -40,7 +40,7 @@ const CartItem = (props: Props) => {
 
   return (
     <Wrapper>
-      <div onClick={remove}>X</div>
+      <Trash onClick={remove}>X</Trash>
       <div>{props.lineItem.name}</div>
       <CartQty
         quantity={props.lineItem.quantity}
@@ -55,6 +55,10 @@ const CartItem = (props: Props) => {
 };
 
 export default CartItem;
+
+const Trash = styled.div`
+  cursor: pointer;
+`;
 
 const Wrapper = styled.div`
   width: 100%;
