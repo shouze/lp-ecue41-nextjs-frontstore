@@ -6,6 +6,7 @@ export const theme = {
     lightText: "#FFFFFF",
     darkText: "#0f1111",
   },
+  divider: '#0f1111',
   borderRadius: {
     small: '3px',
     big: '19px',

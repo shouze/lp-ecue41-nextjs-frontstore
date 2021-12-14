@@ -47,12 +47,27 @@ const ProductCard = (props: Props) => {
 export default ProductCard;
 
 const Card = styled.div`
-  width: 100%;
+  height: 250px;
+  padding: 20px;
+  width: 80%;
+  gap: 1rem;
+  margin: 0 auto;
+  display: flex;
+  padding-left: 100px;
+  & ~ & {
+    border-top: 1px solid ${(props) => props.theme.colors.divider};
+  }
+  @media screen and (max-width: 700px) {
+    padding: 2rem 0;
+    height: auto;
+    flex-direction: column;
+  }
 `;
 
 const ImageContainer = styled.div`
   position: relative;
-  width: 100%;
-  /* height: 100%; */
-  padding-bottom: 100%; /* forces square aspect ratio */
+  aspect-ratio: 2/3;
+  @media screen and (max-width: 700px) {
+    aspect-ratio: 1/1;
+  }
 `;
